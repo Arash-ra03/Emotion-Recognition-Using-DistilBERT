@@ -1,0 +1,1 @@
+{"learning_rate": 4.76615470511797e-05, "per_device_train_batch_size": 32, "weight_decay": 0.03243883100066434, "num_train_epochs": 5, "warmup_steps": 269, "adam_beta1": 0.9409099735830508, "adam_beta2": 0.9511026385031478, "label_smoothing_factor": 0.04137677556057702, "dropout": 0.4862410311095663}
