@@ -31,8 +31,8 @@ This project is implemented in Python using the Hugging Face Transformers librar
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Arash-ra03/Emotion-Recognition-Using-DistilBERT.git
+   cd Emotion-Recognition-Using-DistilBERT
 
 ## Usage
 
@@ -56,7 +56,7 @@ For inference, we have implemented a simple Streamlit app. This app allows users
 1. **Run the Streamlit App:**
 
    ```bash
-   streamlit run streamlit_app.py
+   streamlit run emotion_app.py
 
 ## Model Training & Evaluation
 
