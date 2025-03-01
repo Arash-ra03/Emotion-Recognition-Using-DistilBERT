@@ -66,3 +66,35 @@ For inference, we have implemented a simple Streamlit app. This app allows users
    ```bash
    streamlit run streamlit_app.py
 
+## Model Training & Evaluation
+
+### Fine-Tuning DistilBERT
+
+**Initial Performance (Before MLP and Threshold Adjustments):**
+
+- **F1-micro:** 0.47  
+- **Accuracy:** 0.35  
+- **AUC-ROC:** 0.68  
+- **Precision-micro:** 0.57  
+- **Recall-micro:** 0.40  
+
+### MLP Classifier with Threshold Adjustments
+
+**After Applying the MLP Classifier:**
+
+- **F1-micro:** 0.53  
+- **Accuracy:** 0.33  
+- **AUC-ROC:** 0.87  
+- **Precision-micro:** 0.48  
+- **Recall-micro:** 0.59  
+
+#### Details
+
+- The MLP classifier receives the output vector from the fine-tuned DistilBERT model.
+- A hyperparameter search is performed to find the optimal model configuration.
+- Thresholds for each emotion label are adjusted based on cross-validation results.
+
+## Project Structure
+
+
+
