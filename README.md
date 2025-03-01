@@ -58,6 +58,8 @@ For inference, we have implemented a simple Streamlit app. This app allows users
    ```bash
    streamlit run emotion_app.py
 
+![Streamlit Inference Screenshot](images/screenshot.png)
+
 ## Model Training & Evaluation
 
 ### Fine-Tuning DistilBERT
