@@ -54,3 +54,15 @@ The project consists of two main Jupyter Notebooks:
 
 - Open the notebooks using Jupyter Notebook or JupyterLab.
 - Execute the cells in order to reproduce the experiments.
+
+## Inference
+
+For inference, we have implemented a simple Streamlit app. This app allows users to input text and receive emotion predictions in real time.
+
+### Running the Streamlit App
+
+1. **Run the Streamlit App:**
+
+   ```bash
+   streamlit run streamlit_app.py
+
