@@ -84,7 +84,6 @@ For inference, we have implemented a simple Streamlit app. This app allows users
 
 - The MLP classifier receives the output vector from the fine-tuned DistilBERT model.
 - A hyperparameter search is performed to find the optimal model configuration.
-- Thresholds for each emotion label are adjusted based on cross-validation results.
 
 
 
