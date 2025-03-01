@@ -9,10 +9,6 @@ This repository contains an end-to-end solution for recognizing emotions from te
 - [Installation](#installation)
 - [Usage](#usage)
 - [Model Training & Evaluation](#model-training--evaluation)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Overview
 
@@ -94,7 +90,6 @@ For inference, we have implemented a simple Streamlit app. This app allows users
 - A hyperparameter search is performed to find the optimal model configuration.
 - Thresholds for each emotion label are adjusted based on cross-validation results.
 
-## Project Structure
 
 
 
