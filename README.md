@@ -46,10 +46,6 @@ The project consists of two main Jupyter Notebooks:
 *File:* `FineTuned_DistilBERT_MLP_Classification.ipynb`  
 *Purpose:* Utilize the output vectors from the fine-tuned DistilBERT model as input to an MLP classifier. This notebook includes a hyperparameter search to optimize performance and adjust thresholds for each emotion label.
 
-### How to Run the Notebooks
-
-- Open the notebooks using Jupyter Notebook or JupyterLab.
-- Execute the cells in order to reproduce the experiments.
 
 ## Inference
 
