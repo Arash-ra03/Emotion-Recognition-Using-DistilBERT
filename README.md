@@ -58,7 +58,8 @@ For inference, we have implemented a simple Streamlit app. This app allows users
    ```bash
    streamlit run emotion_app.py
 
-![Streamlit Inference Screenshot](Images/Screenshot 1.png)
+<img src="Images/Screenshot 1.png" alt="Alt text" width="200"/>
+
 
 ## Model Training & Evaluation
 
