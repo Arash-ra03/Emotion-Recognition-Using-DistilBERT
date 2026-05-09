@@ -1,4 +1,4 @@
-# Emotion Recognition from Text
+# Multi-Label Emotion Recognition from Text with DistilBERT
 
 This repository contains an end-to-end solution for recognizing emotions from text. The project leverages a fine-tuned DistilBERT model from Hugging Face to extract features from text and uses an MLP classifier with label-specific threshold adjustments to improve classification performance.
 
@@ -56,7 +56,7 @@ For inference, we have implemented a simple Streamlit app. This app allows users
 1. **Run the Streamlit App:**
 
    ```bash
-   streamlit run emotion_app.py
+   streamlit run App/emotion_app.py
 
 <p align="center">
   <img src="Images/Screenshot 1.png" alt="Image 1" width="500"/>
